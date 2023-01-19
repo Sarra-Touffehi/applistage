@@ -6,7 +6,7 @@
  <div> <a routerLinkActive="actif" [routerLink]="['accueil']">Accueil</a></div>
       <div><a routerLinkActive="actif"  [routerLink]="['apropos']"  class="nav-item">A Propos</a></div>
       <div class="icons">
-        <i class="fas fa-user" id="login-btn" ></i>
+        <i class="fas fa-user" id="login-btn" (click)="toform()"></i>
       </div>
     </div>
   </nav>

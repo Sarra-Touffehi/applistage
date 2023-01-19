@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  router: any;
+  toform(){
+this.router.navigate(['../login']);}
+  
 }
